@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Calculator_2 - Копировать.Designer.cs">
+      <DependentUpon>Calculator_2.Designer.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Calculator_2 - Копировать.resx">
+      <DependentUpon>Calculator_2.resx</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
